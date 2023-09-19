@@ -9,13 +9,13 @@ class FirebaseService {
         this._ADMIN_TOKEN = 'FIREBASE ADMIN TOKEN';
 
         const firebaseConfig = {
-            apiKey: "FIREBASE API KEY",
-            authDomain: "FIREBASE DOMAIN",
-            projectId: "treasure-hunt",
-            storageBucket: "GOOGLE STORAGE BUCKET",
-            messagingSenderId: "MESSAGING SENDER ID",
-            appId: "APP ID",
-            measurementId: "GOOGLE ANALYTICS ID"
+            apiKey: "AIzaSyB4_9s1dmd_fiIDBi08j2CiCPk8q0HwNZw",
+            authDomain: "kedi-2db63.firebaseapp.com",
+            projectId: "kedi-2db63",
+           storageBucket: "kedi-2db63.appspot.com",
+           messagingSenderId: "232221241750",
+          appId: "1:232221241750:web:cb0fb2ac0f55e9d9afadb7",
+          measurementId: "G-2E0P4YK8RJ"
         }
 
         const fireApp = initializeApp(firebaseConfig);
